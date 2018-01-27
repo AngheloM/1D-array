@@ -10,7 +10,17 @@ function cars(){
 
 	//Create an array declaration named cars and set each car variable as the values.
 
+var cars = [
+"Toyota",
+"Jeep Wrangler",
+"Mazda"
+];
+
 	//Print the created array
+
+	for (i = 0; i <cars.length; i++){
+		console.log(cars[i]
+	}
 
 	//Print the array length
 
@@ -28,9 +38,13 @@ console.log(cars());
 */
 function order(food, drink, dessert){
 	//Store the parameters in an array called "order"
-
+ var food =[Burger;Steak;Chicken]
+ var drink = [Coke,Water,Juice]
+ var dessert = [Ice Cream; Chocolate; Cake]
 	//Print the array named "order"
-	
+	for (i = 0; i <cars.length; i++){
+		console.log("I would like " +Food[i]+)
+	}
 	//Print the length of the array named "order"
 
 	//Return the order as a complete sentence represented as a string
