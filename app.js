@@ -19,7 +19,7 @@ var cars = [
 	//Print the created array
 
 	for (i = 0; i <cars.length; i++){
-		console.log(cars[i]
+		console.log(cars[i])
 	}
 
 	//Print the array length
@@ -38,12 +38,14 @@ console.log(cars());
 */
 function order(food, drink, dessert){
 	//Store the parameters in an array called "order"
- var food =[Burger;Steak;Chicken]
- var drink = [Coke,Water,Juice]
- var dessert = [Ice Cream; Chocolate; Cake]
+ var order =[
+ "food",
+ "drink",
+ "dessert"
+]
 	//Print the array named "order"
-	for (i = 0; i <cars.length; i++){
-		console.log("I would like " +Food[i]+)
+	for (i = 0; i <order.length; i++){
+		console.log("I would like " +order[i])
 	}
 	//Print the length of the array named "order"
 
@@ -51,7 +53,7 @@ function order(food, drink, dessert){
 	return;
 }
 
-console.log(order("Burger", "root beer", "frosty"));
+console.log(order());
 
 var currentClasses = [
 	"Band", 
