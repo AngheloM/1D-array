@@ -42,7 +42,7 @@ function order(food, drink, dessert){
  "food",
  "drink",
  "dessert"
-]
+];
 	//Print the array named "order"
 	for (i = 0; i <order.length; i++){
 		console.log("I would like " +order[i])
@@ -55,22 +55,26 @@ function order(food, drink, dessert){
 
 console.log(order());
 
-var currentClasses = [
-	"Band", 
-	"Biology", 
-	"Chemistry", 
-	"Orchestra",
-	"Physical Education",
-	"Physics",
-	"Web Development"
+var currentClasses =[
+"Band", 
+"Biology", 
+"Chemistry", 
+"Orchestra",
+"Physical Education",
+"Physics",
+"Web Development"
 ];
 
 /*
 * Uses for loop to iterate through array passed as a parameter
 * and replaces content at specified index within for loop
 *
-* Return 	classes (array, changed after iteration)
+* Return classes (array, changed after iteration)
 */
+	for(i = 0; i  < currentClasses.length; i++){
+		console.log("I have " +currentClasses[i])
+	}
+
 function loopToChange(classes){
 	//Print the parameter that is being passed through the function
 
@@ -90,6 +94,7 @@ console.log(loopToChange(currentClasses));
 */
 function arrayMethodToLoop(numbers){
 	//Print the parameter that is being passed through the function
+
 
 	//Use the forEach() method to add 5 to each value in the passed array
 	
